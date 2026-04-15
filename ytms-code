@@ -1,0 +1,34 @@
+from ytmusicapi import YTMusic
+import sys
+
+yt = YTMusic()
+
+
+try:
+    query = sys.argv[1]
+except IndexError:
+    query = input("Pick A Song To Search: ")
+
+search_results = yt.search(query, filter="songs", limit=1)
+
+
+artist = search_results[0]["artists"][0]["name"]
+song = search_results[0]["title"]
+duration = search_results[0]["duration"]
+views = search_results[0]["views"]
+
+
+print(f"Song = {song}")
+print(f"Artist = {artist}")
+print(f"Duration (Minutes) = {duration}")
+print(f"Views = {views}")
+print()
+print(input("Press Enter To See .json file. Otherwise, press ctrl + c."))
+print(search_results)
+
+
+
+
+
+
+
