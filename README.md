@@ -52,3 +52,7 @@ The program prints out the details in a readable form.
 
 
 After, you can either press enter to see the full .json file or press CTRL + C to stop the program.
+
+
+
+Sorry For The Bad ReadMe. This is my first!
