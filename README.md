@@ -8,7 +8,15 @@ I am 12 and currently learning python with Harvard's free CS50p course. I decide
 
 
 
-
+# Features
+- Fully Anonymous
+- Very Fast
+- Gathers Artist, Song, Duration And Amount Of Views
+- CLI
+- Viewable .Json File
+  
+  and......
+- FOSS! (MIT-License)
 # How It Works
 Either you use CLI Arguments:
 
